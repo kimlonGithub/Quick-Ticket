@@ -55,3 +55,19 @@ export async function createTicket(
     };
   }
 }
+
+export async function getTickets() {
+  try {
+    const tickets = await prisma.ticket.findMany({
+      orderBy: { createdAt: "desc" },
+    });
+
+    return tickets;
+  } catch (error) {
+    Sentry.captureException(error, {
+      level: "error",
+      extra: { message: "Failed to fetch tickets" },
+    });
+    throw new Error("Failed to fetch tickets");
+  }
+}
