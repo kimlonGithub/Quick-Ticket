@@ -3,3 +3,7 @@
 3. npx prisma init
 4. npx prisma migrate dev --name init
 5. npx prisma generate
+
+ 6. npx prisma migrate dev --name add-user-model (stop dev and migrate)
+ 7. npm i bcryptjs jose cookie
+ 8. openssl rand -base64 32

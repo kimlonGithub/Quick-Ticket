@@ -5,6 +5,7 @@ import { useActionState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import Link from "next/link";
+import { toast } from "sonner";
 
 const NewTicketPage = () => {
   const [loading, setLoading] = useState(false);
@@ -17,6 +18,7 @@ const NewTicketPage = () => {
       setLoading(true);
       const result = await createTicket(prevState, formData);
       setLoading(false);
+      toast[result.success ? "success" : "error"](result.message);
       return result;
     },
     {

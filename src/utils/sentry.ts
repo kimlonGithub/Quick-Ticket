@@ -2,7 +2,7 @@ import * as Sentry from "@sentry/node";
 
 type LogLevel = "info" | "warning" | "error" | "debug" | "fatal";
 
-export function LogEvent(
+export function logEvent(
   message: string,
   category: string = "general",
   data?: Record<string, unknown>,
