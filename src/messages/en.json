@@ -1,0 +1,99 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "backToHome": "← Back to Home",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "close": "Close",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information"
+  },
+  "navigation": {
+    "quickTicket": "QuickTicket",
+    "newTicket": "New Ticket",
+    "myTickets": "My Tickets",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout"
+  },
+  "home": {
+    "welcome": "Welcome to Quick Ticket",
+    "description": "Fast and simple support ticket management system.",
+    "submitTicket": "Submit a Ticket",
+    "submitTicketButton": "Submit a Ticket",
+    "viewTickets": "View Tickets",
+    "viewTicketsButton": "View Tickets"
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "email": "Your Email",
+      "password": "Password",
+      "loginButton": "Login",
+      "loginSuccessful": "Login successful!",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password"
+    },
+    "register": {
+      "title": "Register",
+      "name": "Your Name",
+      "email": "Your Email",
+      "password": "Password",
+      "registerButton": "Register",
+      "registering": "Registering...",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password"
+    },
+    "logout": {
+      "confirmTitle": "Confirm Logout",
+      "confirmMessage": "Are you sure you want to log out?",
+      "logoutButton": "Logout",
+      "cancelButton": "Cancel"
+    }
+  },
+  "tickets": {
+    "backToHome": "Back to Home",
+    "allTickets": "All Tickets",
+    "submitTicket": "Submit a Support Ticket",
+    "noTicketsFound": "No tickets found.",
+    "subject": "Subject",
+    "description": "Describe your issue",
+    "priority": {
+      "label": "Priority",
+      "low": "Low Priority",
+      "medium": "Medium Priority",
+      "high": "High Priority"
+    },
+    "created": "Created",
+    "id": "ID",
+    "submitTicketButton": "Submit a Ticket",
+    "submitTicketLoading": "Submit a Ticket..."
+  },
+  "language": {
+    "english": "English",
+    "chinese": "中文",
+    "khmer": "ខ្មែរ",
+    "japanese": "日本語",
+    "korean": "한국어",
+    "thai": "ไทย",
+    "ko": "한국어",
+    "zh": "中文"
+  },
+  "messages": {
+    "ticketCreated": "Ticket created successfully",
+    "ticketCreationError": "An error occurred while creating the ticket",
+    "loginRequired": "You must be logged in to create a ticket",
+    "allFieldsRequired": "All fields are required",
+    "registrationSuccessful": "Registration successful! Please log in."
+  }
+}

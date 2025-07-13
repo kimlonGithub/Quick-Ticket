@@ -9,6 +9,9 @@ QuickTicket is a modern, full-stack ticketing application built with the latest 
 - **Intuitive Interface**: A clean and responsive UI built with Tailwind CSS for a seamless user experience across all devices.
 - **Real-time Notifications**: Instant feedback on actions like ticket creation and login, powered by `sonner`.
 - **Protected Routes**: Secure pages and API endpoints, ensuring that only authenticated users can access sensitive data.
+- **Internationalization (i18n)**: Multi-language support with locale-based routing and translations for English, Chinese, Khmer, Japanese, Korean, and Thai.
+- **Language Switcher Dropdown**: Instantly switch between supported languages with a modern, styled dropdown.
+- **Smart Locale Routing**: Direct links and middleware ensure users always land on the correct localized version of every page.
 
 ## Tech Stack
 
@@ -20,13 +23,21 @@ QuickTicket is a modern, full-stack ticketing application built with the latest 
 - **UI Components**: [Lucide React](https://lucide.dev/guide/react) for icons
 - **Error Monitoring**: [Sentry](https://sentry.io/)
 
+## Internationalization (i18n)
+
+- **Supported Languages**: English, 中文 (Chinese), ខ្មែរ (Khmer), 日本語 (Japanese), 한국어 (Korean), ไทย (Thai)
+- **Language Switcher**: Easily switch languages from any page using the dropdown in the navbar.
+- **Locale-based Routing**: All routes are prefixed with the selected locale (e.g., `/en/tickets/new`, `/zh/tickets/new`).
+- **Automatic Redirects**: Middleware ensures users are always redirected to the correct locale version of each page.
+- **Extensible**: Add new languages by simply adding a translation file and updating the config.
+
 ## Results
+
 ![image](https://github.com/user-attachments/assets/7555f13c-33bf-4ffc-9bd2-e7b483979e20)
 ![image](https://github.com/user-attachments/assets/75489701-0900-4f16-9c6f-f52e1a4bb913)
 ![image](https://github.com/user-attachments/assets/6b14cfa1-3ca9-4f88-8507-6b9346bf4556)
 ![image](https://github.com/user-attachments/assets/e32e1ffb-26f7-4eae-8ce2-efa9c77a50bf)
 ![image](https://github.com/user-attachments/assets/fe19979e-6dbe-42e8-8e77-affdb5ff7a38)
-
 
 ## Getting Started
 

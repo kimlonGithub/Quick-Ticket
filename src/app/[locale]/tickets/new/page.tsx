@@ -6,10 +6,12 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import Link from "next/link";
 import { toast } from "sonner";
+import { useLocale, useTranslations } from "next-intl";
 
 const NewTicketPage = () => {
   const [loading, setLoading] = useState(false);
-
+  const t = useTranslations("tickets");
+  const locale = useLocale();
   const [state, formActions] = useActionState(
     async (
       prevState: { success: boolean; message: string },
@@ -40,13 +42,13 @@ const NewTicketPage = () => {
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <div className="w-full max-w-md bg-white shadow-md rounded-lg p-8 border border-gray-200">
         <Link
-          href="/"
+          href={`/${locale}`}
           className="inline-block mb-6 text-blue-600 hover:underline transition"
         >
-          &larr; Back to Home
+          &larr; {t("backToHome")}
         </Link>
         <h1 className="text-3xl font-bold mb-6 text-center text-blue-600">
-          Submit a Support Ticket
+          {t("submitTicket")}
         </h1>
         {state.success && (
           <div className="mb-4 p-3 bg-green-100 text-green-700 border border-green-200 rounded">
@@ -64,12 +66,12 @@ const NewTicketPage = () => {
             className="w-full border border-gray-200 p-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
             type="text"
             name="subject"
-            placeholder="Subject"
+            placeholder={t("subject")}
           />
           <textarea
             className="w-full border border-gray-200 p-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
             name="description"
-            placeholder="Describe your issue"
+            placeholder={t("description")}
             rows={4}
           />
           <select
@@ -77,9 +79,9 @@ const NewTicketPage = () => {
             name="priority"
             defaultValue="Low"
           >
-            <option value="Low">Low Priority</option>
-            <option value="Medium">Medium Priority</option>
-            <option value="High">High Priority</option>
+            <option value="Low">{t("priority.low")}</option>
+            <option value="Medium">{t("priority.medium")}</option>
+            <option value="High">{t("priority.high")}</option>
           </select>
           <button
             className="w-full bg-blue-600 text-white p-3 rounded hover:bg-blue-700 transition disabled:opacity-50 cursor-pointer flex items-center justify-center"
@@ -89,10 +91,10 @@ const NewTicketPage = () => {
             {loading ? (
               <span className="flex items-center gap-2">
                 <span className="animate-spin h-5 w-5 border-2 border-white border-t-transparent rounded-full cursor-none"></span>
-                Submit a Ticket...
+                {t("submitTicketLoading")}
               </span>
             ) : (
-              "Submit a Ticket"
+              t("submitTicketButton")
             )}
           </button>
         </form>

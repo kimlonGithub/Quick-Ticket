@@ -1,0 +1,99 @@
+{
+  "common": {
+    "loading": "កំពុងផ្ទុក...",
+    "backToHome": "← ត្រឡប់ទៅទំព័រដើម",
+    "cancel": "បោះបង់",
+    "submit": "ដាក់ស្នើ",
+    "save": "រក្សាទុក",
+    "delete": "លុប",
+    "edit": "កែប្រែ",
+    "view": "មើល",
+    "close": "បិទ",
+    "confirm": "បញ្ជាក់",
+    "yes": "បាទ/ចាស",
+    "no": "ទេ",
+    "ok": "យល់ព្រម",
+    "error": "កំហុស",
+    "success": "ជោគជ័យ",
+    "warning": "ការព្រមាន",
+    "info": "ព័ត៌មាន"
+  },
+  "navigation": {
+    "quickTicket": "វិក្កយបត្ររហ័ស",
+    "newTicket": "វិក្កយបត្រថ្មី",
+    "myTickets": "វិក្កយបត្ររបស់ខ្ញុំ",
+    "login": "ចូល",
+    "register": "ចុះឈ្មោះ",
+    "logout": "ចាកចេញ"
+  },
+  "home": {
+    "welcome": "សូមស្វាគមន៍មកកាន់វិក្កយបត្ររហ័ស",
+    "description": "ប្រព័ន្ធគ្រប់គ្រងវិក្កយបត្រគាំទ្ររហ័ស និងសាមញ្ញ។",
+    "submitTicket": "ដាក់ស្នើវិក្កយបត្រ",
+    "submitTicketButton": "ដាក់ស្នើវិក្កយបត្រ",
+    "viewTickets": "មើលវិក្កយបត្រ",
+    "viewTicketsButton": "មើលវិក្កយបត្រ"
+  },
+  "auth": {
+    "login": {
+      "title": "ចូល",
+      "email": "អ៊ីមែលរបស់អ្នក",
+      "password": "ពាក្យសម្ងាត់",
+      "loginButton": "ចូល",
+      "loginSuccessful": "ចូលបានជោគជ័យ!",
+      "showPassword": "បង្ហាញពាក្យសម្ងាត់",
+      "hidePassword": "លាក់ពាក្យសម្ងាត់"
+    },
+    "register": {
+      "title": "ចុះឈ្មោះ",
+      "name": "ឈ្មោះរបស់អ្នក",
+      "email": "អ៊ីមែលរបស់អ្នក",
+      "password": "ពាក្យសម្ងាត់",
+      "registerButton": "ចុះឈ្មោះ",
+      "registering": "កំពុងចុះឈ្មោះ...",
+      "showPassword": "បង្ហាញពាក្យសម្ងាត់",
+      "hidePassword": "លាក់ពាក្យសម្ងាត់"
+    },
+    "logout": {
+      "confirmTitle": "បញ្ជាក់ការចាកចេញ",
+      "confirmMessage": "តើអ្នកប្រាកដជាចង់ចាកចេញមែនទេ?",
+      "logoutButton": "ចាកចេញ",
+      "cancelButton": "បិទ"
+    }
+  },
+  "tickets": {
+    "backToHome": " ត្រឡប់ទៅទំព័រដើម",
+    "allTickets": "វិក្កយបត្រទាំងអស់",
+    "submitTicket": "ដាក់ស្នើវិក្កយបត្រគាំទ្រ",
+    "noTicketsFound": "រកមិនឃើញវិក្កយបត្រ។",
+    "subject": "ប្រធានបទ",
+    "description": "ពិពណ៌នាបញ្ហារបស់អ្នក",
+    "priority": {
+      "label": "អាទិភាព",
+      "low": "អាទិភាពទាប",
+      "medium": "អាទិភាពមធ្យម",
+      "high": "អាទិភាពខ្ពស់"
+    },
+    "created": "បង្កើតឡើង",
+    "id": "លេខសម្គាល់",
+    "submitTicketButton": "ដាក់ស្នើវិក្កយបត្រ",
+    "submitTicketLoading": "កំពុងដាក់ស្នើវិក្កយបត្រ..."
+  },
+  "language": {
+    "english": "English",
+    "chinese": "中文",
+    "khmer": "ខ្មែរ",
+    "japanese": "日本語",
+    "korean": "한국어",
+    "thai": "ไทย",
+    "ko": "한국어",
+    "zh": "中文"
+  },
+  "messages": {
+    "ticketCreated": "វិក្កយបត្រត្រូវបានបង្កើតដោយជោគជ័យ",
+    "ticketCreationError": "មានកំហុសកើតឡើងពេលបង្កើតវិក្កយបត្រ",
+    "loginRequired": "អ្នកត្រូវតែចូលដើម្បីបង្កើតវិក្កយបត្រ",
+    "allFieldsRequired": "វាលទាំងអស់ត្រូវការ",
+    "registrationSuccessful": "ការចុះឈ្មោះបានជោគជ័យ! សូមចូល។"
+  }
+}

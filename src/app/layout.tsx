@@ -1,39 +1,16 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-import Navbar from "@/components/Navbar";
-import { Toaster } from "sonner";
-
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// src/app/layout.tsx
+import "./[locale]/globals.css";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "QuickTicket - Fast Ticket Management",
-  description: "Effortlessly manage your tickets with QuickTicket",
+  title: "Ticket System",
+  description: "Ticket System",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <Navbar />
-        {children}
-        <Toaster position="top-center" />
-      </body>
-    </html>
-  );
+}) {
+  return <>{children}</>;
 }

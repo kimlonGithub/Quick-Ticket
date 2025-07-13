@@ -1,0 +1,99 @@
+{
+  "common": {
+    "loading": "กำลังโหลด...",
+    "backToHome": "← กลับหน้าหลัก",
+    "cancel": "ยกเลิก",
+    "submit": "ส่ง",
+    "save": "บันทึก",
+    "delete": "ลบ",
+    "edit": "แก้ไข",
+    "view": "ดู",
+    "close": "ปิด",
+    "confirm": "ยืนยัน",
+    "yes": "ใช่",
+    "no": "ไม่ใช่",
+    "ok": "ตกลง",
+    "error": "ข้อผิดพลาด",
+    "success": "สำเร็จ",
+    "warning": "คำเตือน",
+    "info": "ข้อมูล"
+  },
+  "navigation": {
+    "quickTicket": "ควิกทิคเก็ต",
+    "newTicket": "ทิคเก็ตใหม่",
+    "myTickets": "ทิคเก็ตของฉัน",
+    "login": "เข้าสู่ระบบ",
+    "register": "สมัครสมาชิก",
+    "logout": "ออกจากระบบ"
+  },
+  "home": {
+    "welcome": "ยินดีต้อนรับสู่ควิกทิคเก็ต",
+    "description": "ระบบจัดการทิคเก็ตสนับสนุนที่รวดเร็วและง่ายดาย",
+    "submitTicket": "ส่งทิคเก็ต",
+    "submitTicketButton": "ส่งทิคเก็ต",
+    "viewTickets": "ดูทิคเก็ต",
+    "viewTicketsButton": "ดูทิคเก็ต"
+  },
+  "auth": {
+    "login": {
+      "title": "เข้าสู่ระบบ",
+      "email": "อีเมลของคุณ",
+      "password": "รหัสผ่าน",
+      "loginButton": "เข้าสู่ระบบ",
+      "loginSuccessful": "เข้าสู่ระบบสำเร็จ!",
+      "showPassword": "แสดงรหัสผ่าน",
+      "hidePassword": "ซ่อนรหัสผ่าน"
+    },
+    "register": {
+      "title": "สมัครสมาชิก",
+      "name": "ชื่อของคุณ",
+      "email": "อีเมลของคุณ",
+      "password": "รหัสผ่าน",
+      "registerButton": "สมัครสมาชิก",
+      "registering": "กำลังสมัคร...",
+      "showPassword": "แสดงรหัสผ่าน",
+      "hidePassword": "ซ่อนรหัสผ่าน"
+    },
+    "logout": {
+      "confirmTitle": "ยืนยันการออกจากระบบ",
+      "confirmMessage": "คุณแน่ใจหรือไม่ว่าต้องการออกจากระบบ?",
+      "logoutButton": "ออกจากระบบ",
+      "cancelButton": "ยกเลิก"
+    }
+  },
+  "tickets": {
+    "backToHome": "กลับหน้าหลัก",
+    "allTickets": "ทิคเก็ตทั้งหมด",
+    "submitTicket": "ส่งทิคเก็ตสนับสนุน",
+    "noTicketsFound": "ไม่พบทิคเก็ต",
+    "subject": "หัวข้อ",
+    "description": "อธิบายปัญหาของคุณ",
+    "priority": {
+      "label": "ลำดับความสำคัญ",
+      "low": "ต่ำ",
+      "medium": "กลาง",
+      "high": "สูง"
+    },
+    "created": "สร้างเมื่อ",
+    "id": "รหัส",
+    "submitTicketButton": "ส่งทิคเก็ต",
+    "submitTicketLoading": "กำลังส่งทิคเก็ต..."
+  },
+  "language": {
+    "english": "อังกฤษ",
+    "chinese": "จีน",
+    "khmer": "เขมร",
+    "japanese": "ญี่ปุ่น",
+    "korean": "เกาหลี",
+    "thai": "ไทย",
+    "ko": "한국어",
+    "zh": "中文"
+  },
+  "messages": {
+    "ticketCreated": "สร้างทิคเก็ตสำเร็จ",
+    "ticketCreationError": "เกิดข้อผิดพลาดขณะสร้างทิคเก็ต",
+    "loginRequired": "คุณต้องเข้าสู่ระบบเพื่อสร้างทิคเก็ต",
+    "allFieldsRequired": "กรุณากรอกทุกช่อง",
+    "registrationSuccessful": "สมัครสมาชิกสำเร็จ! กรุณาเข้าสู่ระบบ"
+  }
+}
