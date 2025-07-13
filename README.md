@@ -33,11 +33,7 @@ QuickTicket is a modern, full-stack ticketing application built with the latest 
 
 ## Results
 
-![image](https://github.com/user-attachments/assets/7555f13c-33bf-4ffc-9bd2-e7b483979e20)
-![image](https://github.com/user-attachments/assets/75489701-0900-4f16-9c6f-f52e1a4bb913)
-![image](https://github.com/user-attachments/assets/6b14cfa1-3ca9-4f88-8507-6b9346bf4556)
-![image](https://github.com/user-attachments/assets/e32e1ffb-26f7-4eae-8ce2-efa9c77a50bf)
-![image](https://github.com/user-attachments/assets/fe19979e-6dbe-42e8-8e77-affdb5ff7a38)
+<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/8d1e645b-ed98-43f7-8852-7c89301ef687" />
 
 ## Getting Started
 
